@@ -4,6 +4,9 @@ IRDModelling
 
 .. warning:: This documentation updates on 12th September2023!
 
+Advanced Pricing Models for Interest Rate Derivatives: An In-depth Analysis of the Over-the-Counter Derivative Market in China.
+
+
 Analysis and Pricing of Interest Rate Options: A Focus on LPR and SHIBOR-linked Caps and Floors
 =========================================================================================================
 
