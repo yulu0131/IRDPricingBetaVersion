@@ -8,7 +8,7 @@ To provide a comprehensive view, the models will be delineated into three distin
 
 ## Research Framework
 
-![overview](docs/source/py_code/IRD_models.png)
+add later.
 
 <!-- [Online Documentation (Chinese Version)](https://voladocs.readthedocs.io/) -->
 
