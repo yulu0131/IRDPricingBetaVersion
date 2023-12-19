@@ -45,7 +45,7 @@ myst_enable_extensions = ["dollarmath", "amsmath"]
 master_doc = 'index'
 templates_path = ['_templates']
 exclude_patterns = []
-language = 'zh_CN'
+language = 'en'
 
 # -- Options for HTML output -------------------------------------------------
 

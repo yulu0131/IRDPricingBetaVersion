@@ -1,12 +1,12 @@
 <!doctype html>
-<html class="no-js" lang="zh-CN" data-content_root="./">
+<html class="no-js" lang="en" data-content_root="./">
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
-    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="index" title="索引" href="genindex.html" /><link rel="search" title="搜索" href="search.html" /><link rel="next" title="利率模型" href="ird_models/ird_models.html" />
+    <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="Pricing Caps and Floors" href="ird_models/ird_models.html" />
 
     <!-- Generated with Sphinx 7.2.6 and Furo 2023.09.10 -->
-        <title>IRDModelling 0.0.1a 文档</title>
+        <title>IRDModelling 0.0.1a documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=a746c00c" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=135e06be" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=36a5483c" />
@@ -123,7 +123,7 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="#"><div class="brand">IRDModelling 0.0.1a 文档</div></a>
+      <a href="#"><div class="brand">IRDModelling 0.0.1a documentation</div></a>
     </div>
     <div class="header-right">
       <div class="theme-toggle-container theme-toggle-header">
@@ -146,10 +146,10 @@
       <div class="sidebar-sticky"><a class="sidebar-brand" href="#">
   
   
-  <span class="sidebar-brand-text">IRDModelling 0.0.1a 文档</span>
+  <span class="sidebar-brand-text">IRDModelling 0.0.1a documentation</span>
   
 </a><form class="sidebar-search-container" method="get" action="search.html" role="search">
-  <input class="sidebar-search" placeholder="搜索" name="q" aria-label="搜索">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
   <input type="hidden" name="check_keywords" value="yes">
   <input type="hidden" name="area" value="default">
 </form>
@@ -194,14 +194,23 @@
           <section id="irdmodelling">
 <h1>IRDModelling<a class="headerlink" href="#irdmodelling" title="Link to this heading">#</a></h1>
 <div class="admonition warning">
-<p class="admonition-title">警告</p>
-<p>This documentation updates on 12th September2023!</p>
+<p class="admonition-title">Warning</p>
+<p>This documentation updates on 18th December 2023!</p>
 </div>
-<p>Advanced Pricing Models for Interest Rate Derivatives: An In-depth Analysis of the Over-the-Counter Derivative Market in China.</p>
-<section id="analysis-and-pricing-of-interest-rate-options-a-focus-on-lpr-and-shibor-linked-caps-and-floors">
-<h2>Analysis and Pricing of Interest Rate Options: A Focus on LPR and SHIBOR-linked Caps and Floors<a class="headerlink" href="#analysis-and-pricing-of-interest-rate-options-a-focus-on-lpr-and-shibor-linked-caps-and-floors" title="Link to this heading">#</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>Two main interest rate derivative markets: cap market and swaptions market.</strong></p>
+</div>
+<p>Advanced Pricing Models for Interest Rate Derivatives: An In-depth Analysis of the Over-the-Counter Derivative Market in China. Market standard models for both main interest-rate derivatives “sub-markets”, namely the caps and swaptions markets are discovered in this project.</p>
 <p>In the ever-evolving landscape of Chinese financial derivative markets, understanding the intricacies of interest rate options is paramount. This project endeavors to conduct an exhaustive analysis of interest rate models, specifically focusing on the pricing of interest rate options like caps and floors whose underpinnings are tied to benchmarks such as the Loan Prime Rate (LPR) and the Shanghai Interbank Offered Rate (SHIBOR).</p>
+<section id="subproject1-cap-floor-pricing">
+<h2>SubProject1: Cap Floor Pricing<a class="headerlink" href="#subproject1-cap-floor-pricing" title="Link to this heading">#</a></h2>
+<p>The key elements of understanding the cap and floor pricing is to question whether there is a model flexible enough to be calibrated to the market smile for such products, since cap is one of the most liquid market contracts. Once the implementation of cap smile is completed, is it possible to “arbitrage” the swaption smile against the cap smile?</p>
 <p>To provide a comprehensive view, the models will be delineated into three distinct categories: the Black model, short-term interest rate models, and the Libor Market Model (often referred to as the Brace-Gatarek-Musiela or BGM model). Through this classification and the corresponding emprical analysis, the project aims to deliver a clear understanding of the methodologies and implications of each model in the context of modern interest rate derivatives.</p>
+</section>
+<section id="subproject2-swaption-pricing">
+<h2>SubProject2: Swaption Pricing<a class="headerlink" href="#subproject2-swaption-pricing" title="Link to this heading">#</a></h2>
+<p>Implement later once cap floor pricing is done.</p>
 <div class="toctree-wrapper compound">
 </div>
 </section>
@@ -217,7 +226,7 @@
                 <div class="context">
                   <span>Next</span>
                 </div>
-                <div class="title">利率模型</div>
+                <div class="title">Pricing Caps and Floors</div>
               </div>
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
             </a>
@@ -253,7 +262,8 @@
           <div class="toc-tree">
             <ul>
 <li><a class="reference internal" href="#">IRDModelling</a><ul>
-<li><a class="reference internal" href="#analysis-and-pricing-of-interest-rate-options-a-focus-on-lpr-and-shibor-linked-caps-and-floors">Analysis and Pricing of Interest Rate Options: A Focus on LPR and SHIBOR-linked Caps and Floors</a></li>
+<li><a class="reference internal" href="#subproject1-cap-floor-pricing">SubProject1: Cap Floor Pricing</a></li>
+<li><a class="reference internal" href="#subproject2-swaption-pricing">SubProject2: Swaption Pricing</a></li>
 </ul>
 </li>
 </ul>
@@ -265,11 +275,10 @@
       
     </aside>
   </div>
-</div><script src="_static/documentation_options.js?v=f5ffa393"></script>
+</div><script src="_static/documentation_options.js?v=8c8a9e14"></script>
     <script src="_static/doctools.js?v=888ff710"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/scripts/furo.js?v=32e29ea5"></script>
-    <script src="_static/translations.js?v=beaddf03"></script>
     <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     </body>
 </html>
